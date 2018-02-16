@@ -1,7 +1,9 @@
 				/*header settings*/
 .backgroundImage {
-    height: 698px;
-    width: 1901px;
+	background-size: cover;
+	background-position: center;
+	height: 698px;
+	width: 100%;
     background-image: url(../images/travel.jpg);
 }
 .logo {
@@ -120,8 +122,16 @@ h2.totheMountains {
 				/*section1*/
 .section1 {
 	height: 667px;
-	width: 1901px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
 	background-image: url(../images/section1-background.jpg);
+}
+.wave-icon1 {
+	display: inline-block;
+	position: absolute;
+	margin-left: 392px;
+	margin-top: 206px;
 }
 .aboutUs {
 	text-transform: uppercase;
@@ -178,10 +188,10 @@ h2.totheMountains {
 				/*section2*/
 .section2 {
 	height: 990px;
-	width: 1901px;
+	width: 100%;
 	background-color: #ffffff;
 }
-.wave-icon {
+.wave-icon2 {
 	display: inline-block;
 	position: absolute;
 	margin-left: 915px;
@@ -434,8 +444,16 @@ h2.totheMountains {
 				/*section3*/
 .section3 {
 	height: 651px; 
-	width: 1901px;
-	background-image: url(../images/tree-background.jpg);
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/tree-bg.jpg);
+}
+.wave-icon3 {
+	display: inline-block;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 142px;
 }
 .doyou {
 	padding-top: 192px;
@@ -536,7 +554,7 @@ h2.totheMountains {
 	width: 1901px;
 	background-color: #ffffff;
 }
-.wave {
+.wave-icon4 {
 	margin-left: 914px;
 	margin-top: 55px;
 }
@@ -665,7 +683,15 @@ h2.totheMountains {
 .section5 {
 	background-image: url(../images/travel-with-usbg.jpg);
 	height: 1022px;
-	width: 1901px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	}
+	.wave-icon5 {
+		display: inline-block;
+		position: absolute;
+		margin-left: 918px;
+		
 	}
 .travelwithus {
 	font-family: 'Open Sans', sans-serif;
@@ -772,6 +798,7 @@ h2.totheMountains {
 .section6 {
 	height: 951px;
 	width: 1901px;
+	width: 100%;
 }
 .wave-icon6 {
 	display: inline-block;
@@ -831,6 +858,7 @@ h2.totheMountains {
 }
 				/*section7*/
 .section7 {
+	width: 100%;
 	height: 180px;
 	background-color: #f8f9fa;
 }
@@ -848,9 +876,17 @@ h2.totheMountains {
 				/*footer settings*/
 .footer {
 	margin-top: 68px;
-	width: 1901px;
 	height: 1292px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
 	background-image: url(../images/footer-bg.jpg);
+}
+.wave-iconf {
+	display: inline-block;
+	position: absolute;
+	margin-left: 918px;
+
 }
 .oursay {
 	font-family: 'Open Sans', sans-serif;
@@ -869,7 +905,7 @@ h2.totheMountains {
 	font-weight: 900;
 	color: #7ec4d6;
 	margin-top: 1174px;
-	margin-left: 1354px;
+	margin-left: 1340px;
 }
 .allrights {
 	display: inline-block;
@@ -887,7 +923,7 @@ h2.totheMountains {
 	width: 40px;
 	background-color: #2bbef1;
 	margin-top: 1150px;
-	margin-left: 896px;
+	margin-left: 890px;
 	color: #ffffff;
 }
 .twitter i {
@@ -901,7 +937,7 @@ h2.totheMountains {
 	width: 40px;
 	background-color: #6788ce;
 	margin-top: 1150px;
-	margin-left: 938px;
+	margin-left: 932px;
 	color: #ffffff;
 }
 .facebook i {
@@ -915,7 +951,7 @@ h2.totheMountains {
 	width: 40px;
 	background-color: #54769a;
 	margin-top: 1150px;
-	margin-left: 980px;
+	margin-left: 974px;
 	color: #ffffff;
 }
 .vk i {
@@ -994,8 +1030,8 @@ h2.totheMountains {
 	position: absolute;
 	height: 66px;
 	width: 344px;
-	margin-top: 520px;
-	margin-left: 792px;
+	margin-top: 470px;
+	margin-left: 784px;
 }
 .wcontacts {
 	display: inline-block;
@@ -1018,8 +1054,8 @@ h2.totheMountains {
 .footform {
 	display: inline-block;
 	position: absolute;
-	margin-top: 622px;
-	margin-left: 732px;
+	margin-top: 580px;
+	margin-left: 722px;
 }
 .footinput1 {
 	height: 60px;
@@ -1065,7 +1101,7 @@ h2.totheMountains {
 	border-radius: 4px;
 	background-color: #36aeea;
 	border: none;
-	margin-top: 100px;
+	margin-top: 102px;
 	margin-left: -456px;
 	cursor: pointer;
 }
