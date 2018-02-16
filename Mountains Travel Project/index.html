@@ -7,11 +7,14 @@
     <title>MountainsTravel</title>
     <title>@font-face</title>
         <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 				<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,700i,800" rel="stylesheet">
 				<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
 				<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
 				<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+				<script src="js/jquery-3.3.1.min.js"></script>
+				<script type="text/javascript" src="js/script.js"></script>
+
 </head>
 <body>
     
@@ -21,13 +24,13 @@
 				<a href="#"><img src="images/logo.png" alt="logo"></a>
 			</div>
 					<ul class="navbar">
-							<li><a href="#">Our Story</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Work</a></li>
-							<li><a href="#">Journal</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Work</a></li>
-							<li><a href="#">Journal</a></li>
+							<li><a href="#ourstory">Our Story</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#work">Work</a></li>
+							<li><a href="#journal">Journal</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="#work">Work</a></li>
+							<li><a href="#journal">Journal</a></li>
 					</ul>
 			<div class="callUs">
 				<a href="#"><p>Call Us</p></a>
@@ -46,7 +49,7 @@
 	</header>
 
 	<main>
-		<div class="section1">
+		<div id="ourstory" class="section1">
 			<div class="txt1">
 			<h3 class="aboutUs">about us</h3>
 			<p class="loremText">Aliquam sed posuere urna,et gravida nisl.Praesent<br>
@@ -64,7 +67,7 @@
 				<img src="images/section1-foto2.jpg" alt="foto2">
 			</div>
 		</div>
-		<div class="section2">
+		<div id="journal" class="section2">
 			<div class="wave-icon"><img src="images/wave-icon.png" alt="wave-icon"></div>
 			<h3 class="ourJournal">our journal</h3>
 			<div class="journalBigBlock">
@@ -111,7 +114,7 @@
 				</div>
 					<p class="lockdata"><i class="fas fa-lock"></i> * Your data will not be transferred </p>
 		</div>
-		<div class="section4">
+		<div id="work" class="section4">
 			<div class="wave"><img src="images/wave-icon.png" alt="wave-icon"></div>
 			<h3 class="howwework">How we work</h3>
 			<div class="circle1"><p class="s4number">1</p></div>
@@ -128,7 +131,7 @@
 			<p class="s4lorem3"><span class="blacklorem">Lorem ipsum dolor sit</span> <br> amet, consectetur adipisicing <br> elit, sed do eiusmod tempor <br> incididunt</p>
 			<p class="s4lorem4"><span class="blacklorem">Lorem ipsum dolor sit</span> <br> amet, consectetur adipisicing <br> elit, sed do eiusmod tempor <br> incididunt</p>
 		</div>
-		<div class="section5">
+		<div id="services" class="section5">
 			<div class="travelwithus"><h3>Travel with us</h3></div>
 				
 			<div class="carpathian">
@@ -262,7 +265,7 @@
 				<p class="wcontacts">Contacts</p>
 				<p class="signup">Sign up for our newsletter to receive updates</p>
 			</div>
-			<form class="footform" action="#">
+			<form id="contact" class="footform" action="#">
 				<input class="footinput1" type="text" maxlength="25" placeholder="Name"> <br>
 				<input class="footinput2" type="text" maxlength="25" placeholder="Phone"> <br>
 				<input class="footinput3" type="email" maxlength="25" placeholder="Email">
